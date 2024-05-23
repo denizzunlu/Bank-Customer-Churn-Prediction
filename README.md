@@ -2,14 +2,14 @@
 
 This Notebook was prepared for [Kaggle Playground Series S4E1](https://www.kaggle.com/competitions/playground-series-s4e1/overview) and achieved a score of 0.89844. It has been deployed using Flask API on HEROKU.
 
-![0_n7vG65S6qTv7KhZK](https://github.com/denizzunlu/Bank-Customer-Churn-Prediction/assets/123365405/e02673ff-91e0-489c-be52-ce28c39daf72)
+![0_n7vG65S6qTv7KhZK](https://github.com/denizzunlu/Bank-Customer-Churn-Prediction/assets/123365405/5733bb4d-c41a-4081-8227-fa4d5f8ace06)
+
 
 ## About
 
-
 **Goal:** To predict whether a customer will continue to use their account or close it.
-**Evaluation:** Submissions are evaluated on area under the ROC curve between the predicted probability and the observed target.
 
+**Evaluation:** Submissions are evaluated on area under the ROC curve between the predicted probability and the observed target.
 
 The bank customer churn dataset is a commonly used dataset for predicting customer churn in the banking industry. It contains information on bank customers who either left the bank or continue to be a customer. The dataset includes the following attributes:
 
