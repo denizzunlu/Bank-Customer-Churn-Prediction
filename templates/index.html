@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Churn Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"] {
+            width: calc(100% - 10px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bank Churn Prediction</h1>
+        <form action="/predict" method="post">
+            <label for="CreditScore">Credit Score:</label>
+            <input type="text" id="CreditScore" name="CreditScore" required><br><br>
+
+            <label for="Age">Age:</label>
+            <input type="text" id="Age" name="Age" required><br><br>
+
+            <label for="Tenure">Tenure:</label>
+            <input type="text" id="Tenure" name="Tenure" required><br><br>
+
+            <label for="Balance">Balance:</label>
+            <input type="text" id="Balance" name="Balance" required><br><br>
+
+            <label for="EstimatedSalary">Estimated Salary:</label>
+            <input type="text" id="EstimatedSalary" name="EstimatedSalary" required><br><br>
+
+            <label for="Geography">Geography:</label>
+            <select id="Geography" name="Geography" required>
+                <option value="France">France</option>
+                <option value="Germany">Germany</option>
+                <option value="Spain">Spain</option>
+            </select><br><br>
+
+            <label for="Gender">Gender:</label>
+            <select id="Gender" name="Gender" required>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br><br>
+
+            <label for="HasCrCard">Has Credit Card:</label>
+            <select id="HasCrCard" name="HasCrCard" required>
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select><br><br>
+
+            <label for="IsActiveMember">Is Active Member:</label>
+            <select id="IsActiveMember" name="IsActiveMember" required>
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select><br><br>
+
+            <label for="NumOfProducts">Number of Products:</label>
+            <input type="text" id="NumOfProducts" name="NumOfProducts" required><br><br>
+
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+</body>
+</html>
