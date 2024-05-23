@@ -2,7 +2,10 @@
 
 This Notebook was prepared for [Kaggle Playground Series S4E1](https://www.kaggle.com/competitions/playground-series-s4e1/overview) and achieved a score of 0.89844. It has been deployed using Flask API on HEROKU.
 
-![0_n7vG65S6qTv7KhZK](https://github.com/denizzunlu/Bank-Customer-Churn-Prediction/assets/123365405/5733bb4d-c41a-4081-8227-fa4d5f8ace06)
+Link: https://bankcustomerchurnpred-9b9f0927acf2.herokuapp.com/
+
+![0_n7vG65S6qTv7KhZK](https://github.com/denizzunlu/Bank-Customer-Churn-Prediction/assets/123365405/ccc31f05-84e9-44fd-9b09-8105dd553534)
+
 
 
 ## About
