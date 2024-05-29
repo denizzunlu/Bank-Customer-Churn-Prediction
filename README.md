@@ -6,6 +6,7 @@ Link: https://bankcustomerchurnpred-5c48d8489ff5.herokuapp.com/
 
 ![0_n7vG65S6qTv7KhZK](https://github.com/denizzunlu/Bank-Customer-Churn-Prediction/assets/123365405/ccc31f05-84e9-44fd-9b09-8105dd553534)
 
+![image](https://github.com/denizzunlu/Bank-Customer-Churn-Prediction/assets/123365405/69006e7b-9ff3-4b55-a746-338a45fb81b8)
 
 
 ## About
